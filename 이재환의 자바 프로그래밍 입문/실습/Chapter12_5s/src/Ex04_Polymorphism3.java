@@ -23,6 +23,7 @@ class Lion extends Animal
 //다형성
 public class Ex04_Polymorphism3 
 {	
+	//매개변수(obj)로 어떤 형태의 객체를 참조하는 변수가 들어올지 알 수 없기에 아예 상위 클래스로 지정
 	public static void animalChoose(Animal obj) {
 		if(obj instanceof Tiger) {
 			Tiger tiger = (Tiger)obj;
