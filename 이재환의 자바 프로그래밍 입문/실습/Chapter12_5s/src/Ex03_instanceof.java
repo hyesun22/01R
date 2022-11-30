@@ -23,8 +23,8 @@ class Dog implements Cry
 public class Ex03_instanceof {
 
 	public static void main(String[] args) {
-		//Cry test1 = new Cat();
-		Cry test1 = new Dog();
+		Cry test1 = new Cat();
+		//Cry test1 = new Dog();
 		
 		//test1에 있는 참조 값이 Cat의 객체를 가리키는지 Dog의 객체를 가리키는지 조사하여 그에 따른 코드를 진행한다.
 		//instanceof 연산자는 결국 다형성을 잘 사용하려고 사용하는 연산자이다.
